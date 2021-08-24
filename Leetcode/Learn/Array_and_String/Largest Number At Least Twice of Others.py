@@ -34,4 +34,34 @@ from typing import List
 
 class Solution:
     def dominantIndex(self, nums: List[int]) -> int:
-        return 0
+        # Time: O(n)
+        # Space: O(1)
+        if len(nums) == 1: return 0
+
+        fir, sec, idx = -1, -1, 0
+        for i, num in enumerate(nums):
+            if num > fir:
+                sec = fir
+                fir = num
+                idx = i
+            elif num > sec:
+                sec = num
+        
+        if fir < sec * 2:
+            idx = -1
+
+        return idx 
+
+    def dominantIndex(self, nums: List[int]) -> int:
+        # Time: O(n)
+        # Space: O(1)
+        if len(nums) == 1: return 0
+        
+        max_num = max(nums)
+        max_idx = nums.index(max_num)
+
+        nums.remove(max_num)
+        if max_num >= max(nums) * 2:
+            return max_idx
+
+        return -1

@@ -58,3 +58,7 @@ class Solution:
             if sum(nums[:idx]) == sum(nums[idx + 1:]):
                 return idx
         return -1
+
+test = [1,2,3]
+sol = Solution()
+print(sol.pivotIndex(test))

@@ -30,4 +30,16 @@ Constraints:
 from typing import List
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
-        return 0
+        # Time: O(n)
+        # Space: O(1)
+        idx = len(digits) - 1
+        while digits[idx] == 9 and idx >= 0:
+            digits[idx] = 0
+            idx -= 1
+        
+        if idx == -1:
+            digits.insert(0, 1)
+        else:
+            digits[idx] += 1
+
+        return digits
