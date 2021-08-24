@@ -37,6 +37,20 @@ class Solution:
         # Time: O(n)
         # Space: O(1)
         if len(nums) == 1: return 0
+        
+        max_num = max(nums)
+        max_idx = nums.index(max_num)
+
+        nums.remove(max_num)
+        if max_num >= max(nums) * 2:
+            return max_idx
+
+        return -1
+    
+    def dominantIndex(self, nums: List[int]) -> int:
+        # Time: O(n)
+        # Space: O(1)
+        if len(nums) == 1: return 0
 
         fir, sec, idx = -1, -1, 0
         for i, num in enumerate(nums):
@@ -51,17 +65,3 @@ class Solution:
             idx = -1
 
         return idx 
-
-    def dominantIndex(self, nums: List[int]) -> int:
-        # Time: O(n)
-        # Space: O(1)
-        if len(nums) == 1: return 0
-        
-        max_num = max(nums)
-        max_idx = nums.index(max_num)
-
-        nums.remove(max_num)
-        if max_num >= max(nums) * 2:
-            return max_idx
-
-        return -1

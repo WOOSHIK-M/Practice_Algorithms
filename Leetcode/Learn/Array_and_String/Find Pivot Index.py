@@ -42,6 +42,14 @@ from typing import List
 
 class Solution:
     def pivotIndex(self, nums: List[int]) -> int:
+        # Time: O(n^2)
+        # Space: O(1)
+        for idx, _ in enumerate(nums):
+            if sum(nums[:idx]) == sum(nums[idx + 1:]):
+                return idx
+        return -1
+    
+    def pivotIndex(self, nums: List[int]) -> int:
         # Time: O(n)
         # Space: O(1)
         left_sum, total_sum = 0, sum(nums)
@@ -49,14 +57,6 @@ class Solution:
             if left_sum * 2 + num == total_sum:
                 return idx
             left_sum += num
-        return -1
-
-    def pivotIndex(self, nums: List[int]) -> int:
-        # Time: O(n^2)
-        # Space: O(1)
-        for idx, _ in enumerate(nums):
-            if sum(nums[:idx]) == sum(nums[idx + 1:]):
-                return idx
         return -1
 
 test = [1,2,3]
