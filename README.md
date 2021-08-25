@@ -2,7 +2,7 @@
 
 - +: Solved within 1h
 - -: Solved over 1h
-- !: Got help from the solution
+- !: Got help from the solution or Found a better solution
 - ?: Still don't understand the solution (should try again)
 
 
