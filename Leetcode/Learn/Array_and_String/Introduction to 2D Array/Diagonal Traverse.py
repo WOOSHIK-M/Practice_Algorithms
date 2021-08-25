@@ -28,16 +28,6 @@ class Solution:
     def findDiagonalOrder(self, mat: List[List[int]]) -> List[int]:
         # Time: O(m*n)
         # Space: O(m*n)
-        d = defaultdict(list)
-        for i, r in enumerate(mat):
-            for j, c in enumerate(r):
-                d[i+j] += c,
-
-        return chain.from_iterable(v if k % 2 else v[::-1] for k, v in d.items())
-
-    def findDiagonalOrder(self, mat: List[List[int]]) -> List[int]:
-        # Time: O(m*n)
-        # Space: O(m*n)
         answer: List[int] = []
         
         sum_table: Dict[int, List[int]] = defaultdict(list)
@@ -54,3 +44,13 @@ class Solution:
                 [answer.append(v) for v in v_s]
 
         return answer
+
+    def findDiagonalOrder(self, mat: List[List[int]]) -> List[int]:
+        # Time: O(m*n)
+        # Space: O(m*n)
+        d = defaultdict(list)
+        for i, r in enumerate(mat):
+            for j, c in enumerate(r):
+                d[i+j] += c,
+
+        return chain.from_iterable(v if k % 2 else v[::-1] for k, v in d.items())
