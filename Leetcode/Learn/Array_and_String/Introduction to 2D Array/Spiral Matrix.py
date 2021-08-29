@@ -23,6 +23,8 @@ from typing import List
 
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
+        # Time: O(n*(m^2)+m(n^2) / 2)
+        # Space: O(n*m)
         answer: List[int] = []
 
         while matrix:
