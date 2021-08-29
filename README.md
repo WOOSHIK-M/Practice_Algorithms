@@ -14,7 +14,7 @@
 | 4  |  Diagonal Traverse  | array | [LeetCode](https://leetcode.com/explore/learn/card/array-and-string/202/introduction-to-2d-array/1167/)  | [link](https://github.com/WOOSHIK-M/Coding_Practice/blob/main/Leetcode/Learn/Array_and_String/Introduction%20to%202D%20Array/Diagonal%20Traverse.py)  | +! |
 | 5  |  Spiral Matrix  | array | [LeetCode](https://leetcode.com/explore/learn/card/array-and-string/202/introduction-to-2d-array/1168/)  | [link](https://github.com/WOOSHIK-M/Coding_Practice/blob/main/Leetcode/Learn/Array_and_String/Introduction%20to%202D%20Array/Spiral%20Matrix.py)  | + |
 | 6  |  Pascal's Triangle  | array | [LeetCode](https://leetcode.com/explore/learn/card/array-and-string/202/introduction-to-2d-array/1170/)  | [link](https://github.com/WOOSHIK-M/Coding_Practice/blob/main/Leetcode/Learn/Array_and_String/Introduction%20to%202D%20Array/Pascal's%20Triangle.py)  | +! |
-| 6  |  Add Binary  | string | [LeetCode](https://leetcode.com/explore/learn/card/array-and-string/203/introduction-to-string/1160/)  | [link](https://github.com/WOOSHIK-M/Coding_Practice/blob/main/Leetcode/Learn/Array_and_String/Introduction%20to%202D%20Array/Pascal's%20Triangle.py)  | +! |
+| 7  |  Add Binary  | string | [LeetCode](https://leetcode.com/explore/learn/card/array-and-string/203/introduction-to-string/1160/)  | [link](https://github.com/WOOSHIK-M/Coding_Practice/blob/main/Leetcode/Learn/Array_and_String/Introduction%20to%20String/Add%20Binary.py)  | +! |
 
   <!--
   Markdown ref1:
