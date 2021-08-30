@@ -1,3 +1,4 @@
+# pylint: disable=too-few-public-methods
 """
 https://leetcode.com/explore/learn/card/array-and-string/203/introduction-to-string/1161/
 
@@ -35,23 +36,23 @@ class Solution:
     """KMP algorithm: O(M+N)
     """
     def computeLPSArray(self, pat: str, M: int, lps:List[int]) -> None:
-        len = 0 # length of the previous longest prefix suffix
+        p_s_len = 0 # length of the previous longest prefix suffix
   
-        lps[0] # lps[0] is always 0
+        lps[0] = 0 # lps[0] is always 0
         i = 1
     
         # the loop calculates lps[i] for i = 1 to M-1
         while i < M:
-            if pat[i]== pat[len]:
-                len += 1
-                lps[i] = len
+            if pat[i]== pat[p_s_len]:
+                p_s_len += 1
+                lps[i] = p_s_len
                 i += 1
             else:
                 # This is tricky. Consider the example.
                 # AAACAAAA and i = 7. The idea is similar 
                 # to search step.
-                if len != 0:
-                    len = lps[len-1]
+                if p_s_len != 0:
+                    p_s_len = lps[p_s_len-1]
     
                     # Also, note that we do not increment i here
                 else:
@@ -75,7 +76,7 @@ class Solution:
     
         # Preprocess the pattern (calculate lps[] array)
         self.computeLPSArray(needle, M, lps)
-    
+
         i = 0 # index for haystack[]
         while i < N:
             if needle[j] == haystack[i]:
@@ -94,6 +95,3 @@ class Solution:
                 else:
                     i += 1
         return -1
-
-sol = Solution()
-print(sol.strStr(haystack="", needle=""))
