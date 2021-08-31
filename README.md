@@ -16,7 +16,7 @@
 | 6  |  Pascal's Triangle  | array | [LeetCode](https://leetcode.com/explore/learn/card/array-and-string/202/introduction-to-2d-array/1170/)  | [link](https://github.com/WOOSHIK-M/Coding_Practice/blob/main/Leetcode/Learn/Array_and_String/Introduction%20to%202D%20Array/Pascal's%20Triangle.py)  | +! |
 | 7  |  Add Binary  | string | [LeetCode](https://leetcode.com/explore/learn/card/array-and-string/203/introduction-to-string/1160/)  | [link](https://github.com/WOOSHIK-M/Coding_Practice/blob/main/Leetcode/Learn/Array_and_String/Introduction%20to%20String/Add%20Binary.py)  | + |
 | 8  |  Implement strStr() | string | [LeetCode](https://leetcode.com/explore/learn/card/array-and-string/203/introduction-to-string/1161/)  | [link](https://github.com/WOOSHIK-M/Coding_Practice/blob/main/Leetcode/Learn/Array_and_String/Introduction%20to%20String/Implement%20strStr().py)  | ! |
-| 8  |  Longest Common Prefix | string | [LeetCode](https://leetcode.com/explore/learn/card/array-and-string/203/introduction-to-string/1162/discuss/172553/beat-100-python-submission-short-and-clean)  | [link](https://github.com/WOOSHIK-M/Coding_Practice/blob/main/Leetcode/Learn/Array_and_String/Introduction%20to%20String/Longest%20Common%20Prefix.py)  | +! |
+| 9  |  Longest Common Prefix | string | [LeetCode](https://leetcode.com/explore/learn/card/array-and-string/203/introduction-to-string/1162/discuss/172553/beat-100-python-submission-short-and-clean)  | [link](https://github.com/WOOSHIK-M/Coding_Practice/blob/main/Leetcode/Learn/Array_and_String/Introduction%20to%20String/Longest%20Common%20Prefix.py)  | +! |
 
   <!--
   Markdown ref1:
