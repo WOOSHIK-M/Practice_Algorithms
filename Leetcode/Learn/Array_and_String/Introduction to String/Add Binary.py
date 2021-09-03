@@ -17,6 +17,8 @@ Constraints:
 2. a and b consist only of '0' or '1' characters.
 3. Each string does not contain leading zeros except for the zero itself.
 """
+
+
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
         # Time: O(|a|+|b|)
@@ -25,7 +27,7 @@ class Solution:
 
         a, b = list(a), list(b)
         r = 0
-        
+
         while a or b or r:
             n = r
             if a:

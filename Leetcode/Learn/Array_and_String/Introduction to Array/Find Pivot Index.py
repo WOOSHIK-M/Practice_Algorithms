@@ -45,10 +45,10 @@ class Solution:
         # Time: O(n^2)
         # Space: O(1)
         for idx, _ in enumerate(nums):
-            if sum(nums[:idx]) == sum(nums[idx + 1:]):
+            if sum(nums[:idx]) == sum(nums[idx + 1 :]):
                 return idx
         return -1
-    
+
     def pivotIndex(self, nums: List[int]) -> int:
         # Time: O(n)
         # Space: O(1)
@@ -59,6 +59,7 @@ class Solution:
             left_sum += num
         return -1
 
-test = [1,2,3]
+
+test = [1, 2, 3]
 sol = Solution()
 print(sol.pivotIndex(test))

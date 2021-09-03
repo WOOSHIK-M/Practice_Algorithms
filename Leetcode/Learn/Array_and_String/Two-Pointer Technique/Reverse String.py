@@ -28,11 +28,13 @@ class Solution:
         """
         for i in range(len(s) // 2):
             tmp = s[i]
-            s[i] = s[-i-1]
-            s[-i-1] = tmp
+            s[i] = s[-i - 1]
+            s[-i - 1] = tmp
 
     def reverseString(self, s: List[str]) -> None:
         # bitwise inversion
-        for i in range(len(s) // 2): s[i], s[~i] = s[~i], s[i]
+        for i in range(len(s) // 2):
+            s[i], s[~i] = s[~i], s[i]
 
-sol = Solution().reverseString(["h","e","l","l","o"])
+
+sol = Solution().reverseString(["h", "e", "l", "l", "o"])

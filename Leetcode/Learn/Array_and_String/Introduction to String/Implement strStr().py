@@ -33,27 +33,27 @@ from typing import List
 
 
 class Solution:
-    """KMP algorithm: O(M+N)
-    """
-    def computeLPSArray(self, pat: str, M: int, lps:List[int]) -> None:
-        p_s_len = 0 # length of the previous longest prefix suffix
-  
-        lps[0] = 0 # lps[0] is always 0
+    """KMP algorithm: O(M+N)"""
+
+    def computeLPSArray(self, pat: str, M: int, lps: List[int]) -> None:
+        p_s_len = 0  # length of the previous longest prefix suffix
+
+        lps[0] = 0  # lps[0] is always 0
         i = 1
-    
+
         # the loop calculates lps[i] for i = 1 to M-1
         while i < M:
-            if pat[i]== pat[p_s_len]:
+            if pat[i] == pat[p_s_len]:
                 p_s_len += 1
                 lps[i] = p_s_len
                 i += 1
             else:
                 # This is tricky. Consider the example.
-                # AAACAAAA and i = 7. The idea is similar 
+                # AAACAAAA and i = 7. The idea is similar
                 # to search step.
                 if p_s_len != 0:
-                    p_s_len = lps[p_s_len-1]
-    
+                    p_s_len = lps[p_s_len - 1]
+
                     # Also, note that we do not increment i here
                 else:
                     lps[i] = 0
@@ -62,36 +62,36 @@ class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         if not needle:
             return 0
-        
+
         if not haystack:
             return -1
 
         M = len(needle)
         N = len(haystack)
-    
-        # create lps[] that will hold the longest prefix suffix 
+
+        # create lps[] that will hold the longest prefix suffix
         # values for needle
-        lps = [0]*M
-        j = 0 # index for needle[]
-    
+        lps = [0] * M
+        j = 0  # index for needle[]
+
         # Preprocess the pattern (calculate lps[] array)
         self.computeLPSArray(needle, M, lps)
 
-        i = 0 # index for haystack[]
+        i = 0  # index for haystack[]
         while i < N:
             if needle[j] == haystack[i]:
                 i += 1
                 j += 1
-    
+
             if j == M:
                 return i - j
-    
+
             # mismatch after j matches
             elif i < N and needle[j] != haystack[i]:
                 # Do not match lps[0..lps[j-1]] characters,
                 # they will match anyway
                 if j != 0:
-                    j = lps[j-1]
+                    j = lps[j - 1]
                 else:
                     i += 1
         return -1

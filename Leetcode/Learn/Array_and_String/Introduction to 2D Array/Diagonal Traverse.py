@@ -19,9 +19,9 @@ Constraint:
 4. 1 <= m * n <= 104
 5. -105 <= mat[i][j] <= 105
 """
-from typing import List, Dict
 from collections import defaultdict
 from itertools import chain
+from typing import Dict, List
 
 
 class Solution:
@@ -29,7 +29,7 @@ class Solution:
         # Time: O(m*n)
         # Space: O(m*n)
         answer: List[int] = []
-        
+
         sum_table: Dict[int, List[int]] = defaultdict(list)
 
         m, n = len(mat), len(mat[0])
@@ -51,6 +51,6 @@ class Solution:
         d = defaultdict(list)
         for i, r in enumerate(mat):
             for j, c in enumerate(r):
-                d[i+j] += c,
+                d[i + j] += (c,)
 
         return chain.from_iterable(v if k % 2 else v[::-1] for k, v in d.items())

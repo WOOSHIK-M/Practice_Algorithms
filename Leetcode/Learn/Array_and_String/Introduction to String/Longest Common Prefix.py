@@ -34,20 +34,20 @@ class Solution:
         iter_num = min(len_str)
         for idx in range(iter_num):
             alphabet = strs[0][idx]
-            
+
             for word_check in strs[1:]:
                 if alphabet != word_check[idx]:
                     return answer
             answer += alphabet
         return answer
-    
+
     def longestCommonPrefix(self, strs: List[str]) -> str:
         # Time: O(strnum * strlen)
         # Space: O(strlen)
         l = list(zip(*strs))
         prefix = ""
         for i in l:
-            if len(set(i))==1:
+            if len(set(i)) == 1:
                 prefix += i[0]
             else:
                 break

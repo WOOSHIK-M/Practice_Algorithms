@@ -25,7 +25,7 @@ class Solution:
         # Time: O(numRows^2)
         # Space: O(numRows^2)
         answer: List[List[int]] = [[1]]
-        
+
         if numRows == 1:
             return answer
 
@@ -40,13 +40,13 @@ class Solution:
             tmp.insert(0, 1)
             tmp.append(1)
             answer.append(tmp)
-    
+
         return answer
-    
+
     def generate(self, numRows: int) -> List[List[int]]:
         # Time: O(numRows^2)
         # Space: O(numRows^2)
         res = [[1]]
         for _ in range(1, numRows):
-            res += [list(map(lambda x, y: x+y, res[-1] + [0], [0] + res[-1]))]
+            res += [list(map(lambda x, y: x + y, res[-1] + [0], [0] + res[-1]))]
         return res[:numRows]

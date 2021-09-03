@@ -32,6 +32,6 @@ class Solution:
         # Space: O(1)
         nums = sorted(nums)
         return sum(nums[2 * i] for i in range(len(nums) // 2))
-    
+
     def arrayPairSum(self, nums: List[int]) -> int:
         return sum(sorted(nums)[::2])

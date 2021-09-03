@@ -1,4 +1,8 @@
+# FOLDER
 .github/
 .vscode/
 
+
+# FILE
 Makefile
+setup.cfg

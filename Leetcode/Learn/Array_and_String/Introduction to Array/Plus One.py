@@ -28,6 +28,8 @@ Constraints:
 2. 0 <= digits[i] <= 9
 """
 from typing import List
+
+
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
         # Time: O(n)
@@ -36,7 +38,7 @@ class Solution:
         while digits[idx] == 9 and idx >= 0:
             digits[idx] = 0
             idx -= 1
-        
+
         if idx == -1:
             digits.insert(0, 1)
         else:
