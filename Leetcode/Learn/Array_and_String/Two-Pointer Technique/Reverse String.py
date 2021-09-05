@@ -13,8 +13,8 @@ Input: s = ["H","a","n","n","a","h"]
 Output: ["h","a","n","n","a","H"]
 
 Constraint:
-1 <= s.length <= 105
-s[i] is a printable ascii character.
+1. 1 <= s.length <= 10^5
+2. s[i] is a printable ascii character.
 
 Follow up: Do not allocate extra space for another array. You must do this by modifying the input array in-place with O(1) extra memory.
 """

@@ -19,6 +19,7 @@
 | 9  |  Longest Common Prefix | string | [LeetCode](https://leetcode.com/explore/learn/card/array-and-string/203/introduction-to-string/1162/discuss/172553/beat-100-python-submission-short-and-clean)  | [link](https://github.com/WOOSHIK-M/Coding_Practice/blob/main/Leetcode/Learn/Array_and_String/Introduction%20to%20String/Longest%20Common%20Prefix.py)  | +! |
 | 10  |  Reverse String | Two-Pointer Technique | [LeetCode](https://leetcode.com/explore/learn/card/array-and-string/205/array-two-pointer-technique/1183/)  | [link](https://github.com/WOOSHIK-M/Coding_Practice/blob/main/Leetcode/Learn/Array_and_String/Two-Pointer%20Technique/Reverse%20String.py)  | +! |
 | 11 |  Array Partition I | Two-Pointer Technique | [LeetCode](https://leetcode.com/explore/learn/card/array-and-string/205/array-two-pointer-technique/1154/)  | [link](https://github.com/WOOSHIK-M/Coding_Practice/blob/main/Leetcode/Learn/Array_and_String/Two-Pointer%20Technique/Array%20Partition%20I.py)  | +! |
+| 12 |  Two Sum II | Two-Pointer Technique | [LeetCode](https://leetcode.com/explore/learn/card/array-and-string/205/array-two-pointer-technique/1153/)  | [link](https://github.com/WOOSHIK-M/Coding_Practice/blob/main/Leetcode/Learn/Array_and_String/Two-Pointer%20Technique/Array%20Partition%20I.py)  | +! |
 
   <!--
   Markdown ref1:
