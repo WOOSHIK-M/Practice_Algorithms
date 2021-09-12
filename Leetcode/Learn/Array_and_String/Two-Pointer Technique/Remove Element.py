@@ -51,6 +51,20 @@ from typing import List
 
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
-        answer = 0
+        # Time: O(n^2)
+        # Space: O(1)
+        while val in nums:
+            del nums[nums.index(val)]
+        return len(nums)
 
-        return answer
+    def removeElement(self, nums: List[int], val: int) -> int:
+        # Time: O(n)
+        # Space: O(1)
+        n = 0
+        while(n<len(nums)):
+            if nums[n] == val:
+                del nums[n]
+                continue
+            else:
+                n += 1
+        return n
