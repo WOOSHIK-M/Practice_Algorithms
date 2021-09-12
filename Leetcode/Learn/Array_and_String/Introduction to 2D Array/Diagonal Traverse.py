@@ -12,12 +12,12 @@ Output: [1,2,4,7,5,3,6,8,9]
 Input: mat = [[1,2],[3,4]]
 Output: [1,2,3,4]
 
-Constraint:
+Constraints:
 1. m == mat.length
 2. n == mat[i].length
-3. 1 <= m, n <= 104
-4. 1 <= m * n <= 104
-5. -105 <= mat[i][j] <= 105
+3. 1 <= m, n <= 10^4
+4. 1 <= m * n <= 10^4
+5. -10^5 <= mat[i][j] <= 10^5
 """
 from collections import defaultdict
 from itertools import chain

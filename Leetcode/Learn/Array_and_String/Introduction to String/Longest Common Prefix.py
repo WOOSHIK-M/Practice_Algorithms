@@ -15,10 +15,10 @@ Input: strs = ["dog","racecar","car"]
 Output: ""
 Explanation: There is no common prefix among the input strings.
 
-Constraint:
-1 <= strs.length <= 200
-0 <= strs[i].length <= 200
-strs[i] consists of only lower-case English letters.
+Constraints:
+1. 1 <= strs.length <= 200
+2. 0 <= strs[i].length <= 200
+3. strs[i] consists of only lower-case English letters.
 """
 from typing import List
 

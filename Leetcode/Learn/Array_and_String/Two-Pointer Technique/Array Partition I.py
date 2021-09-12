@@ -18,7 +18,7 @@ Input: nums = [6,2,6,5,1,2]
 Output: 9
 Explanation: The optimal pairing is (2, 1), (2, 5), (6, 6). min(2, 1) + min(2, 5) + min(6, 6) = 1 + 2 + 6 = 9.
  
-Constraint:
+Constraints:
 1. 1 <= n <= 10^4
 2. nums.length == 2 * n
 3. -10^4 <= nums[i] <= 10^4

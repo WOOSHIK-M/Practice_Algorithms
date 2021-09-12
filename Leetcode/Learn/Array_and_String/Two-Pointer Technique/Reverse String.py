@@ -12,7 +12,7 @@ Output: ["o","l","l","e","h"]
 Input: s = ["H","a","n","n","a","h"]
 Output: ["h","a","n","n","a","H"]
 
-Constraint:
+Constraints:
 1. 1 <= s.length <= 10^5
 2. s[i] is a printable ascii character.
 

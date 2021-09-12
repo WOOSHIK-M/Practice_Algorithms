@@ -25,9 +25,9 @@ Output: -1
 Input: haystack = "", needle = ""
 Output: 0
 
-Constraint:
-0 <= haystack.length, needle.length <= 5 * 10^4
-haystack and needle consist of only lower-case English characters.
+Constraints:
+1. 0 <= haystack.length, needle.length <= 5 * 10^4
+2. haystack and needle consist of only lower-case English characters.
 """
 from typing import List
 

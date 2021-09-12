@@ -21,7 +21,7 @@ Output: [1,3]
 Input: numbers = [-1,0], target = -1
 Output: [1,2]
 
-Constraint:
+Constraints:
 1. 2 <= numbers.length <= 3 * 10^4
 2. -1000 <= numbers[i] <= 1000
 3. numbers is sorted in non-decreasing order.
