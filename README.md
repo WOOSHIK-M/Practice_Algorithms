@@ -20,6 +20,7 @@
 | 10  |  Reverse String | Two-Pointer Technique | [LeetCode](https://leetcode.com/explore/learn/card/array-and-string/205/array-two-pointer-technique/1183/)  | [link](https://github.com/WOOSHIK-M/Coding_Practice/blob/main/Leetcode/Learn/Array_and_String/Two-Pointer%20Technique/Reverse%20String.py)  | +! |
 | 11 |  Array Partition I | Two-Pointer Technique | [LeetCode](https://leetcode.com/explore/learn/card/array-and-string/205/array-two-pointer-technique/1154/)  | [link](https://github.com/WOOSHIK-M/Coding_Practice/blob/main/Leetcode/Learn/Array_and_String/Two-Pointer%20Technique/Array%20Partition%20I.py)  | +! |
 | 12 |  Two Sum II | Two-Pointer Technique | [LeetCode](https://leetcode.com/explore/learn/card/array-and-string/205/array-two-pointer-technique/1153/)  | [link](https://github.com/WOOSHIK-M/Coding_Practice/blob/main/Leetcode/Learn/Array_and_String/Two-Pointer%20Technique/Two%20Sum%20II%20-%20Input%20array%20is%20sorted.py)  | +! |
+| 13 |  Remove Element | Two-Pointer Technique | [LeetCode](https://leetcode.com/explore/learn/card/array-and-string/205/array-two-pointer-technique/1151/)  | [link]()  | +! |
 
   <!--
   Markdown ref1:
