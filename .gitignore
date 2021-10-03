@@ -4,6 +4,7 @@
 
 
 # FILE
+.zshrc
 Makefile
 setup.cfg
 .pre-commit-config.yaml
