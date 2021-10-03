@@ -24,7 +24,7 @@
 | 14 |  Max Consecutive Ones | Two-Pointer Technique | [LeetCode](https://leetcode.com/explore/learn/card/array-and-string/205/array-two-pointer-technique/1301/)  | [link](https://github.com/WOOSHIK-M/Coding_Practice/blob/main/Leetcode/Learn/Array_and_String/Two-Pointer%20Technique/Max%20Consecutive%20Ones.py)  | + |
 | 15 |  Minimum Size Subarray Sum | Two-Pointer Technique | [LeetCode](https://leetcode.com/explore/learn/card/array-and-string/205/array-two-pointer-technique/1299/)  | [link](https://github.com/WOOSHIK-M/Coding_Practice/blob/main/Leetcode/Learn/Array_and_String/Two-Pointer%20Technique/Minimum%20Size%20Subarray%20Sum.py)  | + |
 | 16 |  Rotate Array | Conclusion | [LeetCode](https://leetcode.com/explore/learn/card/array-and-string/204/conclusion/1182/) | [link](https://github.com/WOOSHIK-M/Practice_Algorithms/blob/main/Leetcode/Learn/Array_and_String/Conclusion/Rotate%20Array.py)  | + |
-
+| 17 |  Pascal's Triangle II | Conclusion | [LeetCode](https://leetcode.com/explore/learn/card/array-and-string/204/conclusion/1171/) | [link](https://github.com/WOOSHIK-M/Practice_Algorithms/blob/main/Leetcode/Learn/Array_and_String/Conclusion/Pascal's%20Triangle%20II.py)  | + |
 
 
 
