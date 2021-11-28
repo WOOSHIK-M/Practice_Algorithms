@@ -32,26 +32,40 @@ Constraints:
 2. Please do not use the built-in LinkedList library.
 3. At most 2000 calls will be made to get, addAtHead, addAtTail, addAtIndex and deleteAtIndex.
 """
-class MyLinkedList:
+from typing import List
 
+
+class MyLinkedList:
+    """MyLinkedList class."""
     def __init__(self):
-        
+        """Initialize."""
+        self.linked_list: List[int] = []
 
     def get(self, index: int) -> int:
-        
+        """Get a value."""
+        if index < len(self.linked_list):
+            return self.linked_list[index]
+        else:
+            return -1
 
     def addAtHead(self, val: int) -> None:
-        
+        """Add a value as the first element of linked list."""
+        self.linked_list.insert(0, val)
 
     def addAtTail(self, val: int) -> None:
-        
+        """Append a value."""
+        self.linked_list.append(val)
 
     def addAtIndex(self, index: int, val: int) -> None:
-        
+        """Add a value at a specific index."""
+        if index <= len(self.linked_list):
+            self.linked_list.insert(index, val)
 
     def deleteAtIndex(self, index: int) -> None:
+        """Delete a value at a specific index."""
+        if index < len(self.linked_list):
+            self.linked_list.pop(index)
         
-
 
 # Your MyLinkedList object will be instantiated and called as such:
 # obj = MyLinkedList()
