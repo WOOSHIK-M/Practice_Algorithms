@@ -29,7 +29,8 @@
 | 19 |  Reverse Words in a String III | String and Array - Conclusion  | [LeetCode](https://leetcode.com/explore/learn/card/array-and-string/204/conclusion/1165/) | [link](https://github.com/WOOSHIK-M/Practice_Algorithms/blob/main/Leetcode/Learn/Array_and_String/Conclusion/Reverse%20Words%20in%20a%20String%20III.py)  | + |
 | 20 |  Move Zeroes | String and Array - Conclusion  | [LeetCode](https://leetcode.com/explore/learn/card/array-and-string/204/conclusion/1174/) | [link](https://github.com/WOOSHIK-M/Practice_Algorithms/blob/main/Leetcode/Learn/Array_and_String/Conclusion/Move%20Zeroes.py)  | + |
 | 21 |  Design Linked List | Singly Linked List | [LeetCode](https://leetcode.com/explore/learn/card/linked-list/209/singly-linked-list/1290/) | [link](https://github.com/WOOSHIK-M/Practice_Algorithms/blob/main/Leetcode/Learn/Linked%20List/Singly%20Linked%20List/Design%20Linked%20List.py)  | + |
-| 22 |  Linked List Cycle | Two Pointer Linked List| [LeetCode](https://leetcode.com/explore/learn/card/linked-list/214/two-pointer-technique/1212/) | [link](https://github.com/WOOSHIK-M/Practice_Algorithms/blob/main/Leetcode/Learn/Linked%20List/Two%20Pointer%20Linked%20List/Linked%20List%20Cycle.py)  | + |
+| 22 |  Linked List Cycle | Two Pointer Linked List | [LeetCode](https://leetcode.com/explore/learn/card/linked-list/214/two-pointer-technique/1212/) | [link](https://github.com/WOOSHIK-M/Practice_Algorithms/blob/main/Leetcode/Learn/Linked%20List/Two%20Pointer%20Linked%20List/Linked%20List%20Cycle.py)  | + |
+| 23 |  Binary Tree Preorder Traversal | Binary Tree | [LeetCode](https://leetcode.com/explore/learn/card/data-structure-tree/134/traverse-a-tree/928/) | [link](https://github.com/WOOSHIK-M/Practice_Algorithms/blob/main/Leetcode/Learn/Binary%20Tree/Traverse%20a%20Tree/Binary%20Tree%20Preorder%20Traversal.py)  | + |
 
   <!--
   Markdown ref1:
