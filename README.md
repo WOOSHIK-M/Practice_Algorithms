@@ -32,6 +32,7 @@
 | 22 |  Linked List Cycle | Two Pointer Linked List | [LeetCode](https://leetcode.com/explore/learn/card/linked-list/214/two-pointer-technique/1212/) | [link](https://github.com/WOOSHIK-M/Practice_Algorithms/blob/main/Leetcode/Learn/Linked%20List/Two%20Pointer%20Linked%20List/Linked%20List%20Cycle.py)  | + |
 | 23 |  Binary Tree Preorder Traversal | Binary Tree | [LeetCode](https://leetcode.com/explore/learn/card/data-structure-tree/134/traverse-a-tree/928/) | [link](https://github.com/WOOSHIK-M/Practice_Algorithms/blob/main/Leetcode/Learn/Binary%20Tree/Traverse%20a%20Tree/Binary%20Tree%20Preorder%20Traversal.py)  | + |
 | 24 |  Binary Tree Inorder Traversal | Binary Tree | [LeetCode](https://leetcode.com/explore/learn/card/data-structure-tree/134/traverse-a-tree/929/) | [link](https://github.com/WOOSHIK-M/Practice_Algorithms/blob/main/Leetcode/Learn/Binary%20Tree/Traverse%20a%20Tree/Binary%20Tree%20Inorder%20Traversal.py)  | + |
+| 25 |  Binary Tree Postorder Traversal | Binary Tree | [LeetCode](https://leetcode.com/explore/learn/card/data-structure-tree/134/traverse-a-tree/930/) | [link](https://github.com/WOOSHIK-M/Practice_Algorithms/blob/main/Leetcode/Learn/Binary%20Tree/Traverse%20a%20Tree/Binary%20Tree%20Postorder%20Traversal.py)  | + |
 
   <!--
   Markdown ref1:
