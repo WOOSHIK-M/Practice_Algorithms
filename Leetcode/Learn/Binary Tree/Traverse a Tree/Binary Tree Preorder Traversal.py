@@ -36,11 +36,14 @@ from typing import Optional, List
 
 # Definition for a binary tree node.
 class TreeNode:
+    """TreeNode class."""
+
     def __init__(self,
-    val: int=0,
-    left: Optional["TreeNode"] = None,
-    right: Optional["TreeNode"] = None
-) -> None:
+        val: int=0,
+        left: Optional["TreeNode"] = None,
+        right: Optional["TreeNode"] = None
+    ) -> None:  
+        """Initialize."""
         self.val = val
         self.left = left
         self.right = right
@@ -49,6 +52,7 @@ class Solution:
     def dfs(self, root: Optional[TreeNode], preorder: List[int]) -> None:
         """Implement dfs."""
         if root:
+            # in-place operation
             preorder.append(root.val)
             self.dfs(root.left, preorder)
             self.dfs(root.right, preorder)
