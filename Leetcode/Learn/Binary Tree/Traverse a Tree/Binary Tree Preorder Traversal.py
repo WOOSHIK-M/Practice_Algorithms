@@ -5,8 +5,6 @@ https://leetcode.com/explore/learn/card/data-structure-tree/134/traverse-a-tree/
 Given the root of a binary tree, return the preorder traversal of its nodes' values.
 
 
-1 -- 2 -- 3
-
 -> Exmaple 1:
 Input: root = [1,null,2,3]
 Output: [1,2,3]
@@ -38,7 +36,11 @@ from typing import Optional, List
 
 # Definition for a binary tree node.
 class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
+    def __init__(self,
+    val: int=0,
+    left: Optional["TreeNode"] = None,
+    right: Optional["TreeNode"] = None
+) -> None:
         self.val = val
         self.left = left
         self.right = right
