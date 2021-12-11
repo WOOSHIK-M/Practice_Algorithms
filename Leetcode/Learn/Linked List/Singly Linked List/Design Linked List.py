@@ -37,6 +37,7 @@ from typing import List
 
 class MyLinkedList:
     """MyLinkedList class."""
+
     def __init__(self):
         """Initialize."""
         self.linked_list: List[int] = []
@@ -65,7 +66,7 @@ class MyLinkedList:
         """Delete a value at a specific index."""
         if index < len(self.linked_list):
             self.linked_list.pop(index)
-        
+
 
 # Your MyLinkedList object will be instantiated and called as such:
 # obj = MyLinkedList()

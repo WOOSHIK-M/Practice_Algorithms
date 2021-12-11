@@ -31,15 +31,18 @@ Constraints:
 
 Follow up: Recursive solution is trivial, could you do it iteratively?
 """
-from typing import Optional, List
+from typing import List, Optional
+
+
 # Definition for a binary tree node.
 class TreeNode:
     """TreeNode class."""
-    
-    def __init__(self,
-        val: int=0,
+
+    def __init__(
+        self,
+        val: int = 0,
         left: Optional["TreeNode"] = None,
-        right: Optional["TreeNode"] = None
+        right: Optional["TreeNode"] = None,
     ) -> None:
         """Initialize."""
         self.val = val
@@ -60,5 +63,5 @@ class Solution:
         """Postorder Traversal."""
         postorder = []
         self.dfs(root, postorder)
-        
+
         return postorder

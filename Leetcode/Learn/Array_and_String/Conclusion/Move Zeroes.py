@@ -32,6 +32,6 @@ class Solution:
         for idx, num in enumerate(nums):
             if num == 0:
                 continue
-            
+
             nums[left], nums[idx] = num, nums[left]
             left += 1

@@ -19,6 +19,8 @@ Constraints:
 4. There is at least one word in s.
 5. All the words in s are separated by a single space.
 """
+
+
 class Solution:
     def reverseWords(self, s: str) -> str:
         # Time: O(N)

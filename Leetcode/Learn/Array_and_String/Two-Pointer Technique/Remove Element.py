@@ -61,7 +61,7 @@ class Solution:
         # Time: O(n)
         # Space: O(1)
         n = 0
-        while(n<len(nums)):
+        while n < len(nums):
             if nums[n] == val:
                 del nums[n]
                 continue

@@ -34,12 +34,14 @@ Constraints:
 2. s contains English letters (upper-case and lower-case), digits, and spaces ' '.
 3. There is at least one word in s.
 """
+
+
 class Solution:
     def reverseWords(self, s: str) -> str:
         # Time: O(N)
         # Space: O(N)
         s = s.split()
-        
+
         result = ""
         for word in s[::-1]:
             result += word
@@ -52,7 +54,7 @@ class Solution:
         lst = s.split()
 
         left, right = 0, len(lst) - 1
-        while left<right:
+        while left < right:
             lst[left], lst[right] = lst[right], lst[left]
             left += 1
             right -= 1

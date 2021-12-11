@@ -31,22 +31,24 @@ Constraints:
 
 Follow up: Recursive solution is trivial, could you do it iteratively?
 """
-from typing import Optional, List
+from typing import List, Optional
 
 
 # Definition for a binary tree node.
 class TreeNode:
     """TreeNode class."""
 
-    def __init__(self,
-        val: int=0,
+    def __init__(
+        self,
+        val: int = 0,
         left: Optional["TreeNode"] = None,
-        right: Optional["TreeNode"] = None
-    ) -> None:  
+        right: Optional["TreeNode"] = None,
+    ) -> None:
         """Initialize."""
         self.val = val
         self.left = left
         self.right = right
+
 
 class Solution:
     def dfs(self, root: Optional[TreeNode], preorder: List[int]) -> None:

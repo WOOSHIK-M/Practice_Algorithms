@@ -36,5 +36,5 @@ class Solution:
 
         for i in range(rowIndex + 1):
             for j in range(1, i + 1)[::-1]:
-                answer[j] += answer[j-1]
+                answer[j] += answer[j - 1]
         return answer
