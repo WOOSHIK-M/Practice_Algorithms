@@ -33,6 +33,7 @@
 | 23 |  Binary Tree Preorder Traversal | Binary Tree | [LeetCode](https://leetcode.com/explore/learn/card/data-structure-tree/134/traverse-a-tree/928/) | [link](https://github.com/WOOSHIK-M/Practice_Algorithms/blob/main/Leetcode/Learn/Binary%20Tree/Traverse%20a%20Tree/Binary%20Tree%20Preorder%20Traversal.py)  | + |
 | 24 |  Binary Tree Inorder Traversal | Binary Tree | [LeetCode](https://leetcode.com/explore/learn/card/data-structure-tree/134/traverse-a-tree/929/) | [link](https://github.com/WOOSHIK-M/Practice_Algorithms/blob/main/Leetcode/Learn/Binary%20Tree/Traverse%20a%20Tree/Binary%20Tree%20Inorder%20Traversal.py)  | + |
 | 25 |  Binary Tree Postorder Traversal | Binary Tree | [LeetCode](https://leetcode.com/explore/learn/card/data-structure-tree/134/traverse-a-tree/930/) | [link](https://github.com/WOOSHIK-M/Practice_Algorithms/blob/main/Leetcode/Learn/Binary%20Tree/Traverse%20a%20Tree/Binary%20Tree%20Postorder%20Traversal.py)  | + |
+| 26 |  Binary Tree Level Order Traversal | Binary Tree | [LeetCode](https://leetcode.com/explore/learn/card/data-structure-tree/134/traverse-a-tree/931/) | [link](https://github.com/WOOSHIK-M/Practice_Algorithms/blob/main/Leetcode/Learn/Binary%20Tree/Traverse%20a%20Tree/Binary%20Tree%20Level%20Order%20Traversal.py)  | + |
 
   <!--
   Markdown ref1:
