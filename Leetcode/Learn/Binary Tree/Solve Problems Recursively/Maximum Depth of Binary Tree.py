@@ -55,7 +55,8 @@ class Solution:
             cur_depth += 1
             self.dfs(root.left, cur_depth)
             self.dfs(root.right, cur_depth)
-        self.max_depth = max(cur_depth, self.max_depth)
+        else:
+            self.max_depth = max(cur_depth, self.max_depth)
         cur_depth -= 1
 
     def maxDepth(self, root: Optional[TreeNode]) -> int:
