@@ -36,7 +36,5 @@
 | 26 |  Binary Tree Level Order Traversal | Binary Tree | [LeetCode](https://leetcode.com/explore/learn/card/data-structure-tree/134/traverse-a-tree/931/) | [link](https://github.com/WOOSHIK-M/Practice_Algorithms/blob/main/Leetcode/Learn/Binary%20Tree/Traverse%20a%20Tree/Binary%20Tree%20Level%20Order%20Traversal.py)  | + |
 | 27 |  Maximum Depth of Binary Tree | Binary Tree | [LeetCode](https://leetcode.com/explore/learn/card/data-structure-tree/17/solve-problems-recursively/535/) | [link](https://github.com/WOOSHIK-M/Practice_Algorithms/blob/main/Leetcode/Learn/Binary%20Tree/Solve%20Problems%20Recursively/Maximum%20Depth%20of%20Binary%20Tree.py)  | + |
 | 28 |  Symmetric Tree | Binary Tree | [LeetCode](https://leetcode.com/explore/learn/card/data-structure-tree/17/solve-problems-recursively/536/) | [link](https://github.com/WOOSHIK-M/Practice_Algorithms/blob/main/Leetcode/Learn/Binary%20Tree/Solve%20Problems%20Recursively/Symmectric%20Tree.py)  | + |
-  <!--
-  Markdown ref1:
-    http://taewan.kim/post/markdown/#comment
-  -->
+| 29 |  Path Sum | Binary Tree | [LeetCode](https://leetcode.com/explore/learn/card/data-structure-tree/17/solve-problems-recursively/537/) | [link](https://github.com/WOOSHIK-M/Practice_Algorithms/blob/main/Leetcode/Learn/Binary%20Tree/Solve%20Problems%20Recursively/Path%20Sum.py)  | + |
+
