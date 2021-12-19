@@ -42,14 +42,26 @@ class TreeNode:
 
 
 class Solution:
+    map_idx = dict()
+    inorder, postorder = None, None
+
+    def _buildTree(self, left: int, right: int) -> Optional[TreeNode]:
+        """Build a Tree."""
+        if left > right:
+            return
+
+        root = TreeNode(self.postorder.pop())
+        idx = self.map_idx[root.val]
+
+        # assign right
+        root.right = self._buildTree(idx + 1, right)
+        # assign left
+        root.left = self._buildTree(left, idx - 1)
+        return root
+
     def buildTree(self, inorder: List[int], postorder: List[int]) -> Optional[TreeNode]:
         """Build a Tree."""
-        if inorder:
-            root = TreeNode(postorder.pop())
-            inorder_idx = inorder.index(root.val)
+        self.map_idx.update({val: idx for idx, val in enumerate(inorder)})
+        self.inorder, self.postorder = inorder, postorder
 
-            # assign right
-            root.right = self.buildTree(inorder[inorder_idx + 1:], postorder)
-            # assign left
-            root.left = self.buildTree(inorder[:inorder_idx], postorder)
-            return root
+        return self._buildTree(0, len(inorder) - 1)
