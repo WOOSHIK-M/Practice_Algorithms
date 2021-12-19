@@ -44,3 +44,12 @@ class TreeNode:
 class Solution:
     def buildTree(self, inorder: List[int], postorder: List[int]) -> Optional[TreeNode]:
         """Build a Tree."""
+        if inorder:
+            root = TreeNode(postorder.pop())
+            inorder_idx = inorder.index(root.val)
+
+            # assign right
+            root.right = self.buildTree(inorder[inorder_idx + 1:], postorder)
+            # assign left
+            root.left = self.buildTree(inorder[:inorder_idx], postorder)
+            return root
