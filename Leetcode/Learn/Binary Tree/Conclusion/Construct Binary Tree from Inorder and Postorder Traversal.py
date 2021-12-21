@@ -46,7 +46,7 @@ class Solution:
     inorder, postorder = None, None
 
     def _buildTree(self, left: int, right: int) -> Optional[TreeNode]:
-        """Build a Tree."""
+        """Protected method for building a Tree."""
         if left > right:
             return
 
