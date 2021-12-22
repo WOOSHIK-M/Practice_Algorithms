@@ -56,7 +56,7 @@ class Node:
 
 class Solution:
     def connect(self, root: Optional[Node]) -> Optional[Node]:
-        """Make a connection with high speed."""
+        """Make a connection."""
         if not root:
             return root
 
