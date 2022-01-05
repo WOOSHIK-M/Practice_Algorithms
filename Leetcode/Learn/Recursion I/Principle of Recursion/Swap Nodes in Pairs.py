@@ -42,6 +42,3 @@ class Solution:
         nt_head.next = head
 
         return nt_head
-
-
-            
