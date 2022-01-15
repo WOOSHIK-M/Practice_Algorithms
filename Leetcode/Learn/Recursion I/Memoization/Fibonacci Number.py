@@ -44,5 +44,5 @@ class Solution:
             return arr[n]
 
         for _ in range(3, n + 1):
-            arr[2], arr[1] = arr[1] + arr[2], arr[2]
+            arr[1], arr[2] = arr[2], arr[1] + arr[2]
         return arr[2]
