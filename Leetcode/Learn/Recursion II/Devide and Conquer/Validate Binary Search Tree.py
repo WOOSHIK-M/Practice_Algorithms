@@ -40,6 +40,7 @@ class Solution:
         """Validate binary search tree."""
 
         def _isValidBST(root: TreeNode, lower: int, upper: int) -> bool:
+            """Inheritance function to validate a BST."""
             if lower is not None and root.val <= lower:
                 return False
             if upper is not None and root.val >= upper:
