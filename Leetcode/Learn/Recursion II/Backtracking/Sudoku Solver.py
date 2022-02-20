@@ -54,7 +54,9 @@ class Solution:
 
     candidates: List[str] = [str(i) for i in range(1, 10)]
 
-    def is_valid(self, board, candidate: int, row: int, col: int) -> bool:
+    def is_valid(
+        self, board: List[List[str]], candidate: int, row: int, col: int
+    ) -> bool:
         """Check if it is the valid candidate."""
 
         def get_range(idx) -> range:
@@ -69,7 +71,7 @@ class Solution:
         )
         return row_check and col_check and grid_check
 
-    def dfs(self, board, row, col):
+    def dfs(self, board: List[List[str]], row: int, col: int) -> bool:
         """Implement DFS."""
         # solved
         if row == self.GRID_SIZE - 1 and col == self.GRID_SIZE:
