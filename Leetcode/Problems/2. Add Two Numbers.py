@@ -72,6 +72,7 @@ class Solution:
             tmp.next = tmp = ListNode(val)
         return ans.next
 
+
 l1 = ListNode(
     val=2,
     next=ListNode(
